@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+	fetchData = () => {
+		fetch('https://cors-anywhere.herokuapp.com/http://www.example.com/api/get/1')
+  		.then(response => response.json())
+  		.then(data => consoe.log(data));
+	}
+	
+	fetchData();	
+	</script>
+
+</body>
+</html>
